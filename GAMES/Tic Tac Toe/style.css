@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  border: 3px dashed var(--primary-color);
+  border-radius: 10px;
+}
+
+#status {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#playAgain {
+  margin-bottom: 5px;
+}
