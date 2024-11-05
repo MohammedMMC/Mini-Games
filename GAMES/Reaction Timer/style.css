@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reaction-time {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+
+#game-area {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 2px dashed var(--primary-color);
+  margin: 20px 0;
+  border-radius: 10px;
+  max-width: 15cm;
+}
+
+#box {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 101, 101);
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#message {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 400px) {
+  body {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

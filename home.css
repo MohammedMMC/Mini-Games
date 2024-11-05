@@ -33,6 +33,7 @@ a.game span {
   width: 100%;
   left: 0;
   bottom: 5px;
+  padding: 0 2px;
   font-size: 18px;
   font-weight: 700;
   color: var(--primary-color);
@@ -41,4 +42,17 @@ a.game span {
 
 a.game:hover {
   transform: scale(105%);
+}
+
+
+@media (max-width: 460px) {
+  a.game {
+    --size: calc(200px + 5vw);
+  }
+}
+
+@media (max-width: 420px) {
+  a.game {
+    --size: calc(80vw);
+  }
 }

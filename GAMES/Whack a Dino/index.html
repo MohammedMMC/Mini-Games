@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Games - Whack a Dino</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body>
+    <h1 class="title">Whack a Dino</h1>
+
+    <div id="score-board">
+        <span>Score: <span id="score">0</span></span>
+        <span>Time Left: <span id="time-left">30</span><span>s</span></span>
+    </div>
+
+    <div id="board">
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+        <button onclick="dinoClick(this);"></button>
+    </div>
+
+    <button class="btn" id="start-game" onclick="startGame();">Start Game</button>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

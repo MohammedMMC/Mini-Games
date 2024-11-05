@@ -5,7 +5,7 @@ body {
 }
 
 canvas {
-  border: 3px dashed var(--primary-color);
+  border: 5px dashed var(--primary-color);
   border-radius: 10px;
 }
 
